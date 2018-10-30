@@ -1,0 +1,22 @@
+{
+	"DailyLog": {
+			"prefix": "day",
+			"scope": "markdown",
+			"body": [
+				"---",
+				"<a id=\"day${1:day}\"></a>",
+				"<h2 align=\"center\">",
+				"Day ${1:day}: ${2:$CURRENT_DAY_NAME} ${3:$CURRENT_MONTH_NAME} ${4:$CURRENT_DATE}, ${5:$CURRENT_YEAR}",
+				"</h2>",
+				"",
+				"**Today’s Progress**: $0Write progress here.",
+				"",
+				"**Thoughts:** Write additional thoughts here.",
+				"",
+				"**Link to tweet:** [Day ${1:day}](insertLinkToTweet)",
+				"",
+				"**Link to work:** [nameOfWork](insertLinkHere)"
+			],
+			"description": "Daily log for #100DaysOfCode"
+	}
+}
